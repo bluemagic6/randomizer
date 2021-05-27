@@ -46,12 +46,22 @@ else if(capitals && number && lower && special){
 }
 // True CAPITAL LOWER NUMBER
 else if(capitals && number && lower){
-    Inputs= capitalsArray.concat(lowerArray, specialArray);
+    Inputs= capitalsArray.concat(numberArray, lowerArray);
     console.log(Inputs);
 }
 // True LOWER NUMBER SPECIAL
 else if(number && lower && special){
-    Inputs= lowerArray.concat(numberArray, specialArray);
+    Inputs= numberArray.concat(lowerArray, specialArray);
+    console.log(Inputs);
+}
+// true CAPITAL LOWER SPECIAL
+else if(capitals && lower && special){
+    Inputs= capitalsArray.concat(lowerArray, specialArray);
+    console.log(Inputs);
+}
+// true CAPITAL NUMBER SPECIAL
+else if(capitals && number && special){
+    Inputs= capitalsArray.concat(numberArray, specialArray);
     console.log(Inputs);
 }
 // True LOWER NUMBER
