@@ -19,7 +19,14 @@ function writePassword() {
 
     passwordText.value = password;
 
+
 }
 
+function generatePassword() {
+    var pwLength = prompt("How many characters do you want to use? (Must be between 8 and 128)")
+    if (pwLength == null || pwLength<8 || pwLength>128 || isNaN(pwLength)) {
+        alert("Invalid! Enter a number between 8 and 128");
+        return}
+}
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
