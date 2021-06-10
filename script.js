@@ -165,6 +165,7 @@ function generatePassword() {
     var newCharacter = makeRandom(possArr);
     fullPassword.push(newCharacter);
   };
+  console.log(choices)
 
   for (var i = 0; i < chosenChar.length; i++) {
     fullPassword[i] = chosenChar[i];
@@ -190,6 +191,5 @@ function writePassword() {
   passwordText.value = password
 }
 
-console.log(generatePassword)
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword)
