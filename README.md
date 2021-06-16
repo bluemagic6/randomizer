@@ -17,5 +17,12 @@ SO THAT I can create a strong password that provides greater security
 
 ## LINKS 
 [GitHub](https://github.com/bluemagic6/randomizer)  
-[GitHub Pages](https://bluemagic6.github.io/randomizer/)
+[GitHub Pages](https://bluemagic6.github.io/randomizer/)  
 
+## Mock-Up
+```
+The following image shows the web application's appearance and functionality:
+
+![The Password Generator application displays a red button to "Generate Password".](./asset/images/generator.png)
+
+```
